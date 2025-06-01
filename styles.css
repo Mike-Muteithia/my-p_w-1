@@ -1,6 +1,7 @@
 /* Imported Google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+/* CSS for the rest of the website */
 * {
     margin: 0;
     padding: 0;
@@ -8,11 +9,13 @@
     font: 1em sans-serif;
 }
 
+/* CSS for the image */
 img {
     width: 100%;
 }
 
-.section-content {
+/* Header Section */
+.hero-section .section-content {
     max-width: 95%;
     margin: 0;
 }
@@ -69,21 +72,20 @@ button {
 }
 
 
-.hero-section {
-    background: var(--primary-color);
-    min-height: 100vh;
-}
-
+/* Hero Section */
 .hero-section .hero-details .subtitle {
     font-size: 35px;
     font-weight: bolder;
     color: white;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .hero-section .hero-details p {
     font-size: 15px;
     font-weight: bolder;
     color: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .hero-section .section-content {
@@ -104,4 +106,90 @@ section.hero-section {
     background-color: rgb(22, 22, 27);
 }
 
+/* About-Me Section */
+.about-section .aboutme-details .title {
+    font-size: 35px;
+    font-weight: bolder;
+    color: black;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.about-section .aboutme-details p {
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.about-section .section-content {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    justify-content: space-between;
+    max-width: 100%;
+    padding-left: 10px;
+}
+
+section.about-section {
+    background-color: rgb(91, 91, 108);
+}
+
+/* Projects Section */
+.projects-section .projects-details .title {
+    font-size: 35px;
+    font-weight: bolder;
+    color: black;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.projects-section .projects-details p {
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.projects-section .section-content {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    justify-content: space-between;
+    max-width: 100%;
+    padding-left: 15%;
+}
+
+section.projects-section {
+    background-color: rgb(206, 207, 210);
+}
+
+/* Socials Section */
+.socials-section .socials-details .title {
+    font-size: 35px;
+    font-weight: bolder;
+    color: black;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.socials-section .socials-details p {
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.socials-section .section-content {
+    display: flex;
+    align-items: center;
+    min-height: 40vh;
+    justify-content: space-between;
+    max-width: 100%;
+    padding-left: 10%;
+}
+
+section.socials-section {
+    background-color: rgb(239, 238, 241);
+}
 
