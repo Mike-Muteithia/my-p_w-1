@@ -8,15 +8,59 @@
     font: 1em sans-serif;
 }
 
+img {
+    width: 100%;
+}
 
-header {
-    background-color: rgb(218, 216, 201);
+.section-content {
+    max-width: 95%;
+    margin: 0;
 }
 
 header {
+    background-color: rgb(18, 19, 19);
+}
+
+header .navbar {
     display: flex;
+    padding: 20px;
     align-items: center;
     justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    background: none;
+}
+
+.navbar .nav-title .title-text {
+    color: white;
+    font-size: large;
+    font-weight: bolder;
+}
+
+.navbar .nav-title .subtitle-text {
+    color: grey;
+    font-size: xx-small;
+    font-weight: 10px;
+}
+
+.navbar .nav-board .nav-link {
+    color:white;
+    padding: 10px 18px;
+    border-radius: 700px;
+    font-size: small;
+    transition: 0.2s ease;
+}
+
+.navbar .nav-board .nav-link:hover {
+    background-color: rgb(202, 202, 202);
+    color: 
 }
 
 .navbar .nav-board {
@@ -25,5 +69,39 @@ header {
 }
 
 
+.hero-section {
+    background: var(--primary-color);
+    min-height: 100vh;
+}
+
+.hero-section .hero-details .subtitle {
+    font-size: 35px;
+    font-weight: bolder;
+    color: white;
+}
+
+.hero-section .hero-details p {
+    font-size: 15px;
+    font-weight: bolder;
+    color: white;
+}
+
+.hero-section .section-content {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    justify-content: space-between;
+    max-width: 100%;
+    padding-left: 15%;
+}
+
+.hero-profile-image img {
+    width: 80%;
+    size: 10px;
+}
+
+section.hero-section {
+    background-color: rgb(22, 22, 27);
+}
 
 
